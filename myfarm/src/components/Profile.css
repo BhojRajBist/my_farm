@@ -1,0 +1,132 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: zoomIn 0.5s forwards;
+  }
+  
+  @keyframes zoomIn {
+    0% {
+      transform: translate(-50%, -50%) scale(0);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  .profile-info{
+    width: 90%; /* Increased width */
+    padding: 30px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .profile-row-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .profile-row-head i{
+    font-size: 80px;
+  }
+  .profile-row{
+    margin-top: 30px;
+  }
+  .profile-header{
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+ 
+  .profile-icon {
+    margin-right: 10px;
+  }
+  
+  .profile-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .profile-value {
+    color: #555;
+  }
+  
+  .profile-buttons {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 20px;
+  }
+  .profile-button{
+    padding: 10px;
+    background-color:#55b2b0; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-button:hover{
+    background-color: #b1caca;
+  }
+
+  .edit-profile-button,
+  .change-password-button {
+    margin-right: 10px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #888; /* Adjust color as needed */
+  }
+  
+  .close-button:hover {
+    color: #555; /* Adjust hover color */
+  }
+
+  @media(max-width:973px){
+    .profile-container {
+    width: 90%;
+      }
+      .profile-row-head i{
+        font-size: 70px;
+      }
+
+  .profile-container span{
+    font-size: 12px;
+  }
+  .profile-button{
+    padding:  6px;
+  }
+  button{
+    font-size: 11px;
+  }
+      }

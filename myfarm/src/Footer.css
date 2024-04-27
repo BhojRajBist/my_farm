@@ -1,0 +1,17 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #fff; /* White background for the footer */
+    color: #333; /* Text color */
+    padding: 10px; /* Padding around the footer content */
+    text-align: center; /* Aligning the content to the center */
+  }
+  
+  .footer-logo {
+    width: 100px; /* Adjust the width of the logo */
+  }
+  
+  .footer-text {
+    margin-top: 10px; /* Add margin above the footer text */
+  }
+  

@@ -1,0 +1,43 @@
+.term-container {
+    max-width: 800px;
+    height: 500px;
+    overflow-y: auto;
+    margin: 0 auto;
+    padding: 20px; /* Reduced padding */
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .term-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px; /* Reduced margin */
+    color: #333;
+  }
+  
+  .term-container h3 {
+    font-size: 14px;
+    margin-top: 20px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin */
+    color: #555;
+  }
+  
+  .term-container p {
+    font-size: 12px;
+    margin-bottom: 10px; /* Reduced margin */
+    color: #666;
+  }
+  
+  .term-container a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .term-container a:hover {
+    color: #0056b3;
+  }
+  
+  /* Customize further as needed */
+  

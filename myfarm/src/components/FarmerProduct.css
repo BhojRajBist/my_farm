@@ -1,0 +1,83 @@
+/* src/components/FarmerProducts.css */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px,2fr));
+    gap: 20px;
+    max-height: 100vh; /* Set a maximum height for the container */
+    overflow: hidden;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.01);
+  }
+  
+  .card h3 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    color: #070505;
+    margin: 0;
+  }
+  
+  .low-stock {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ff0000;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  
+  /* Add these styles to your CSS file, e.g., FeaturedProducts.css */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button, .get-direction-button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-right: 5px; /* Add margin between the buttons */
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: #0407c7;
+  }
+  
+  .get-direction-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .get-direction-button:hover {
+    background-color: #4caf50;
+  } 
